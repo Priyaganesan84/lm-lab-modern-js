@@ -5,5 +5,6 @@ export function sequence(order) {
   const second = order[1];
   const third = order[2];
 
-  return first + ", " + second + ", " + third;
+ // return first + ", " + second + ", " + third;
+   return `${first}, ${second}, ${third}`;
 }
