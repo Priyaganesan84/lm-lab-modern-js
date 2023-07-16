@@ -1,4 +1,5 @@
 import { add } from "./rest_parameters";
+//const add = require('./rest_parameters');
 
 test("it adds together all the numbers in the argument", () => {
   expect(add(1, 2)).toBe(3);

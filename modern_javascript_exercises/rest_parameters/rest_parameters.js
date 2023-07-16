@@ -9,13 +9,14 @@
 function add(... numbers)
 {
   let sum = 0;
-  for(const number of numbers)
+  for(let number of numbers)
   {
     sum += number;
   }
+  console.log("-----------" + sum)
   return sum;
  }
- // add(1, 2, 3, 4, 5);
+ add(1, 2, 3, 4, 5);
 
-  module.exports = add();
+  module.exports = add;
  
